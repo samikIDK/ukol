@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>H00PERS GEAR</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+
+<body class="bg-dark text-light">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Hoopers Gear</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-dark text-white text-center py-5">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img_2.png" class="d-block w-100" alt="Hráč při střele">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Vítězství začíná správným vybavením</h5>
+                    <p>Objevte naši špičkovou kolekci</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img_3.png" class="d-block w-100" alt="Basketbalové boty">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Boty, které vás posunou dál</h5>
+                    <p>Maximální výkon a pohodlí na hřišti</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img.png" class="d-block w-100" alt="Basketbalový míč">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Perfektní míč pro každou hru</h5>
+                    <p>Vyberte si kvalitu, která vydrží</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+</header>
+<section>
+    <div class="container text-center">
+        <h1>Vybavení, které tě dostane na vrchol!</h1>
+        <p>Nejlepší basketbalové dresy, boty a míče pro váš výkon.</p>
+        <a href="#about" class="btn btn-light">O nás</a>
+        <a href="#products" class="btn btn-dark">Prohlédnout nabídku</a>
+    </div>
+</section>
+
+<section id="about" class="container py-5">
+    <h2 class="text-center">O nás</h2>
+    <p class="text-center">Jsme váš specialista na kvalitní basketbalové vybavení.</p>
+</section>
+
+<section id="products" class="container py-5">
+    <h2 class="text-center">Naše produkty</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="ball.jpg" class="card-img-top" alt="Basketbalový míč">
+                <div class="card-body">
+                    <h5 class="card-title">Basketbalový míč</h5>
+                    <p class="card-text">Oficiální míč pro profesionální hru.</p>
+                    <p class="text-danger">Cena: 1 200 Kč</p>
+                    <a href="#" class="btn btn-primary">Koupit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <a href="products.html" class="btn btn-primary bg-black">Zobrazit více</a>
+    </div>
+</section>
+
+<section class="container py-5">
+    <h2 class="text-center">Kontaktujte nás</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Jméno</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Zpráva</label>
+            <textarea class="form-control" id="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary bg-black">Odeslat</button>
+    </form>
+</section>
+
+<script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
